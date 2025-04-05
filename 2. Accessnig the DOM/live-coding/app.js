@@ -16,3 +16,6 @@ console.log(document.querySelector("#id-1")); //only gets one id
 console.log(document.querySelectorAll("li").length); //get all ids that have been reused
 // ---------------------------------------
 // Storing data in variables
+
+const h1 = document.querySelector("h1");
+console.log(h1);
