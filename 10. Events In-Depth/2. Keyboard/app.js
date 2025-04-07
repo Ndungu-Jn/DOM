@@ -4,3 +4,10 @@ const input = document.querySelector("input");
 input.addEventListener("keypress", () => {
   console.log("key Pressed");
 });
+
+//USEFUL PROPERTIES AND METHODS
+input.addEventListener("keypress", (e) => {
+  console.log(e.charCode);
+  console.log(e.code);
+  console.log(e.ctrlKey);
+});
