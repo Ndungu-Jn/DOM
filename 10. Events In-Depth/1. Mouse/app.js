@@ -21,3 +21,28 @@ let seven = document.querySelector(".mousemove");
 let eight = document.querySelector(".mouseout");
 let nine = document.querySelector(".mouseover");
 let ten = document.querySelector(".mouseup");
+
+one.addEventListener("click", () => {
+  one.classList.toggle("red");
+});
+two.addEventListener("contextmenu", () => {
+  two.classList.toggle("blue");
+});
+three.addEventListener("dblclick", () => {
+  three.classList.toggle("steelblue");
+});
+four.addEventListener("mousedown", () => {
+  four.classList.toggle("orange");
+});
+five.addEventListener("mouseenter", () => {
+  five.classList.toggle("purple");
+});
+six.addEventListener("mouseleave", () => {
+  six.classList.toggle("pink");
+});
+seven.addEventListener("mousemove", () => {
+  seven.classList.toggle("crimson");
+});
+eight.addEventListener("mouseout", () => {
+  eight.classList.toggle("chocolate");
+});
