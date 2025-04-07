@@ -5,9 +5,12 @@ const best = document.querySelector(".best");
 // });
 
 // another Method -- create a function outside, then call it later.
-function greeting() {
-  console.log("Hello World");
-}
-best.addEventListener("click", greeting);
+// function greeting() {
+//   console.log("Hello World");
+// }
+// best.addEventListener("click", greeting);
+
+//arrow function way
+best.addEventListener("click", () => console.log("Yellow"));
 
 // ----------- Event (e) Object -----------
